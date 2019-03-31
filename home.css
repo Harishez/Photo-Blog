@@ -1,0 +1,81 @@
+body{font-family: cursive, sans-serif;color:dimgray;overflow: hidden}
+label{font-family: cursive, sans-serif} 
+#heading
+{
+    display:block;
+    position:relative;
+    left:450x;
+    justify-content: center;
+    align-content: center;
+}
+#loginbox
+{
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    top: 80px;
+    left:455px;
+    align-content: center;
+    width: 500px;
+    height:300px;
+    border-radius:7px;
+    background-color: white;
+}
+#hh
+{
+    display:block;
+    position:relative;
+    left:44%;
+    font-size: 50px;
+    color:deeppink;
+}
+#pp
+{
+    display:block;
+    position:relative;
+    left:42%;
+    color:white;
+}
+#hh1
+{
+    position:relative;
+    left:195px;
+    color:deeppink;
+}
+#ff
+{
+    position:relative;
+    top:95px;
+    left:55px;
+    color:black;
+}
+#login
+{
+  
+    position:relative;
+    left:100px;
+    top:800px;
+    font-size: 30px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    top:55px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#joinus
+{
+  
+    position:relative;
+    left:180px;
+    top:800px;
+    font-size: 30px;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border-radius:5px;
+    top:55px;
+    text-decoration: none;
+    cursor: pointer;
+}

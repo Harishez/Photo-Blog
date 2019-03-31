@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.sectext{
+    padding: 50px 100px;
+    height: auto;
+}
+.heart{
+    background-color: red;
+    height:30px;
+    transform: rotate(-45deg);
+    width:30px;
+    
+}
+
+
+
+.heart:before,.heart:after{
+    content:"";
+    background-color: red;
+    border-radius: 50%;
+    height:30px;
+    position:absolute;
+    width: 30px;
+}
+.heart:before{
+    top:-15px;
+    left:0;
+}
+.heart:after{
+    top:0;
+    left:15px;
+}
+img{
+    display: block;
+    width: 800px;
+}
+
+.sec1{
+    display: block;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.sec2{
+    background: url('pic2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.sec3{
+    background: url('pic3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.sec4{
+    background: url('pic4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
